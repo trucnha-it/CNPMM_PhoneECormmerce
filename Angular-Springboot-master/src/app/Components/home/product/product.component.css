@@ -1,0 +1,39 @@
+.myproduct {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(205, 210, 212);
+}
+.card-text{
+  height: 50px;
+  overflow: hidden;
+}
+
+.btn {
+  visibility: hidden;
+}
+
+.item:hover img {
+  transform: scale(1.2);
+}
+
+.item:hover .btn {
+  visibility: visible;
+  right: 0px;
+}
+
+img {
+  transition: all 0.4s linear;
+}
+
+.btn {
+  position: absolute;
+  right: -500px;
+  bottom: 50px;
+  transition: all 0.4s linear;
+}
+
+.item {
+  overflow: hidden;
+  position: relative;
+}
+
